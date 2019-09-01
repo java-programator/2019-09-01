@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.traveloffice.Date;
+
 public class Test {
     public static void main(String[] args) {
         Date start = new Date(2015, 7, 23);

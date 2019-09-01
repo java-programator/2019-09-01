@@ -1,11 +1,11 @@
-package com.company;
+package com.company.traveloffice;
 
 public class Date {
-    static int counter = 0;
+    public static int counter = 0;
 
-    int year;
-    int month;
-    int day;
+    public int year;
+    public int month;
+    public int day;
 
     public Date(int y, int m, int d) {
         year = y;
@@ -27,10 +27,7 @@ public class Date {
     }
 
     public String getInfo() {
-        String info = String.valueOf(year)
-                + "-" + String.valueOf(month)
-                + "-" + String.valueOf(day);
-        return info;
+        return String.format("%d-%d-%d", year, month, day);
     }
 
     public Date clone() {
