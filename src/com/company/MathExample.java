@@ -9,5 +9,6 @@ public class MathExample {
         double x = sqrt(8) * PI;
         System.out.println(counter);
         Date d = new Date();
+
     }
 }
