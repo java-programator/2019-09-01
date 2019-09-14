@@ -2,6 +2,13 @@ package com.company;
 
 import com.company.traveloffice.Date;
 
+class Nazar {
+    int val;
+    void f(int a) {
+        this.val = a;
+    }
+}
+
 public class ParametersExample {
 
     static void f1(int a) {
@@ -26,5 +33,11 @@ public class ParametersExample {
         Date d1 = new Date(2019, 3, 5);
         f3(d1);
         System.out.println(d1.getInfo());
+
+        Nazar n = new Nazar();
+        Nazar m = new Nazar();
+
+        n.f(x);
+        m.f(x);
     }
 }
