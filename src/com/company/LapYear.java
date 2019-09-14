@@ -3,7 +3,7 @@ package com.company;
 import java.security.interfaces.RSAPrivateCrtKey;
 import java.util.Scanner;
 
-public class LeapYear {
+public class LapYear {
     public static boolean isLeapYear(int year){
         if (year % 400 == 0) {
             System.out.println("Rok przestępny");
