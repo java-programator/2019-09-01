@@ -22,4 +22,19 @@ public class TravelOffice {
         customersCounter++;
     }
 
+    public int getCustomersCounter(Customer customers[]) {
+        int result = 0;
+        for(Customer i : customers) {
+            if(i != null) {
+                result++;
+            } else {
+                break;
+            }
+        }
+    }
+
+    public String getInfo(Customer customers[]) {
+
+    }
+
 }
